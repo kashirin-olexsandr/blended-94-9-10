@@ -1,110 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Document</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
-    rel="stylesheet"
-  />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="./css/styles.css">
-  <title>Document</title>
-</head>
-
-<body>
-  <header class="header">
-    <div class="header container">
-      <nav class="header-navigation">
-        <a href="./index.html" class="list__logo"><span>Finance</span> Ledger</a>
-        <ul class="list list-header">
-          <li>
-            <a class="list__link" href="">Home</a>
-          </li>
-          <li>
-            <a class="list__link" href="">About</a>
-          </li>
-          <li>
-            <a class="list__link" href="">Cases</a>
-          </li>
-          <li>
-            <a class="list__link" href="">Blog</a>
-          </li>
-          <li>
-            <a class="list__link" href="">Contact</a>
-          </li>
+  <body>
+    <header class="header">
+      <div class="header container">
+        <nav class="header-navigation">
+          <a href="./index.html" class="list__logo"
+            ><span>Finance</span> Ledger</a
+          >
+          <ul class="list list-header">
+            <li>
+              <a class="list__link" href="">Home</a>
+            </li>
+            <li>
+              <a class="list__link" href="">About</a>
+            </li>
+            <li>
+              <a class="list__link" href="">Cases</a>
+            </li>
+            <li>
+              <a class="list__link" href="">Blog</a>
+            </li>
+            <li>
+              <a class="list__link" href="">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <div class="container">
+          <h1 class="main__title">The Sky Is The Limit</h1>
+          <h2 class="main__subtitle">
+            We provide world class financial assistance
+          </h2>
+          <button type="button" class="main__btn">Read More</button>
+        </div>
+      </section>
+      <section class="about">
+        <img src="./images/rectangle.jpg" alt="six people standing" />
+        <h3 class="about-title">What you are looking for</h3>
+        <h2 class="about-subtitle">We provide bespoke solutions</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
+          ipsum dignissimos quae laudantium asperiores nam aliquid impedit harum
+          illum dolore explicabo ab dolores itaque rerum temporibus doloribus
+          iste maiores deleniti?
+        </p>
+        <button type="button">Read More</button>
+      </section>
+      <section class="cases">
+        <h3 class="sub-title">This is what we do</h3>
+        <h2 class="cases-title">Business Cases</h2>
+        <p class="cases-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+          sapiente!
+        </p>
+        <ul class="cases-list">
+          <li><img src="./images/Rectangle1.jpg" alt="meeting" /></li>
+          <li><img src="./images/Rectangle2.jpg" alt="working" /></li>
+          <li><img src="./images/Rectangle3.jpg" alt="hand" /></li>
+          <li><img src="./images/Rectangle4.jpg" alt="hands" /></li>
+          <li><img src="./images/Rectangle5.jpg" alt="comp" /></li>
+          <li><img src="./images/Rectangle6.jpg" alt="building" /></li>
         </ul>
-      </nav>
-    </div>
-  </header>
-  <main class="main">
-    <section class="hero">
-      <h1 class="main__title">The Sky Is The Limit</h1>
-      <h2 class="main__subtitle">
-        We provide world class financial assistance
-      </h2>
-      <button type="button" class="main__btn">Read More</button>
-    </section>
-    <section class="about">
-      <img src="./images/rectangle.jpg" alt="six people standing" />
-      <h3 class="about-title">What you are looking for</h3>
-      <h2 class="about-subtitle">We provide bespoke solutions</h2>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
-        ipsum dignissimos quae laudantium asperiores nam aliquid impedit harum
-        illum dolore explicabo ab dolores itaque rerum temporibus doloribus
-        iste maiores deleniti?
-      </p>
-      <button type="button">Read More</button>
-    </section>
-    <section class="cases">
-      <h3 class="sub-title">This is what we do</h3>
-      <h2 class="cases-title">Business Cases</h2>
-      <p class="cases-text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
-        sapiente!
-      </p>
-      <ul class="cases-list">
-        <li><img src="./images/Rectangle1.jpg" alt="meeting" /></li>
-        <li><img src="./images/Rectangle2.jpg" alt="working" /></li>
-        <li><img src="./images/Rectangle3.jpg" alt="hand" /></li>
-        <li><img src="./images/Rectangle4.jpg" alt="hands" /></li>
-        <li><img src="./images/Rectangle5.jpg" alt="comp" /></li>
-        <li><img src="./images/Rectangle6.jpg" alt="building" /></li>
-      </ul>
-    </section>
-    <section class="blog">
-      <p class="blog-data">April 16 2020</p>
-      <h2 class="blog-title">Blog Post One</h2>
-      <p class="blog-text">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
-        ipsum dignissimos quae laudantium asperiores nam aliquid impedit harum
-        illum dolore explicabo ab dolores itaque rerum temporibus doloribus
-        iste maiores deleniti?
-      </p>
-      <button type="button" class="blog-btn">Read Our Blog</button>
-      <img src="./images/Rectangle-blog.jpg" alt="table" width="670" />
-    </section>
-    <section>
-      <h3>Who we are</h3>
-      <h2>Our Professional Team</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
-      <ul>
-        <li><img src="./images/Rectangle7.jpg" alt="men_standing" width="420" height="286"></li>
-        <h4>John Doe</h4>
-        <p>President</p>
-        <li><img src="./images/Rectangle8.jpg" alt="women sitting" width="420" height="286"></li>
-        <h4>Jane Doe</h4>
-        <p>Vice President</p>
-        <li><img src="./images/Rectangle9.jpg" alt="smiling men" width="420" height="286"></li>
-        <h4>Steve Smith</h4>
-        <p>Marketing Head</p>
-      </ul>
-    </section>
-  </main>
-</body>
-
+      </section>
+      <section class="blog">
+        <p class="blog-data">April 16 2020</p>
+        <h2 class="blog-title">Blog Post One</h2>
+        <p class="blog-text">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
+          ipsum dignissimos quae laudantium asperiores nam aliquid impedit harum
+          illum dolore explicabo ab dolores itaque rerum temporibus doloribus
+          iste maiores deleniti?
+        </p>
+        <button type="button" class="blog-btn">Read Our Blog</button>
+        <img src="./images/Rectangle-blog.jpg" alt="table" width="670" />
+      </section>
+      <section>
+        <h3>Who we are</h3>
+        <h2>Our Professional Team</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+          sapiente!
+        </p>
+        <ul>
+          <li>
+            <img
+              src="./images/Rectangle7.jpg"
+              alt="men_standing"
+              width="420"
+              height="286"
+            />
+          </li>
+          <h4>John Doe</h4>
+          <p>President</p>
+          <li>
+            <img
+              src="./images/Rectangle8.jpg"
+              alt="women sitting"
+              width="420"
+              height="286"
+            />
+          </li>
+          <h4>Jane Doe</h4>
+          <p>Vice President</p>
+          <li>
+            <img
+              src="./images/Rectangle9.jpg"
+              alt="smiling men"
+              width="420"
+              height="286"
+            />
+          </li>
+          <h4>Steve Smith</h4>
+          <p>Marketing Head</p>
+        </ul>
+      </section>
+    </main>
+  </body>
 </html>
