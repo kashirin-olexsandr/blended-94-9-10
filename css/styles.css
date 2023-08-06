@@ -86,10 +86,11 @@ a {
 .list__logo span {
   color: var(--green);
 }
+
+/* --------------------hero ----------------*/
 .icon-vector-header {
   fill: #28A745;
 }
-/* hero */
 .main {}
 
 .hero {
@@ -117,8 +118,8 @@ a {
 }
 
 .main__btn {
-  background-color: #28a745;
-  color: #fff;
+  background-color: #e9e9e9;
+  color: #080808;
   text-align: center;
   font-size: 18px;
   line-height: 1.56;
