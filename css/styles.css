@@ -355,7 +355,6 @@ a {
   font-size: 38px;
   font-weight: 300;
   line-height: 1.26;
-  padding-top: 80px;
   margin-bottom: 32px;
 }
 
@@ -413,4 +412,14 @@ a {
 
 .footer-text {
   text-align: center;
+}
+.social-link:hover,
+.social-link:focus{
+  color:var(--green);
+}
+.footer-icon{
+  fill: currentColor;
+  transition-duration: 250ms;
+  display: flex;
+  align-items: flex-end;
 }
