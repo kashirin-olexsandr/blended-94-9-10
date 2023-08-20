@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --light-cl: #fff;
   --green: #28a745;
   --dark-cl: #333;
@@ -36,10 +36,10 @@ p {
 
 a {
   text-decoration: none;
-}
+} */
 
 /* -----------------------HEADER------------------- */
-.header>.container,
+/* .header>.container,
 .cases>.container {
   padding: 0 28px;
 }
@@ -85,12 +85,12 @@ a {
 
 .list__logo span {
   color: var(--green);
-}
+} */
 
 /* --------------------hero ----------------*/
-.icon-vector-header {
+/* .icon-vector-header {
   fill: #28A745;
-}
+} */
 .main {}
 
 .hero {

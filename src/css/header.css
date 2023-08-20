@@ -1,0 +1,51 @@
+.header>.container,
+.cases>.container {
+  padding: 0 28px;
+}
+
+.container {
+  width: 1360px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  width: 100%;
+}
+
+.header-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-header {
+  display: flex;
+  gap: 40px;
+}
+
+.list__link {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: var(--light-cl);
+  font-size: 18px;
+  line-height: 1.56;
+}
+
+.list__logo {
+  color: var(--light-cl);
+  line-height: 1.2;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.list__logo span {
+  color: var(--green);
+}
+
+.icon-vector-header {
+  fill: #28A745;
+}
